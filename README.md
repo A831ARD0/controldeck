@@ -24,7 +24,7 @@ Es **software libre** (licencia [MIT](LICENSE)): úsalo, cópialo, modifícalo y
 
 ## Instalar (para quien lo usa)
 
-- **Mac:** abre `ControlDeck-<versión>.dmg` y arrastra ControlDeck a Aplicaciones. Ábrelo: se abre el panel con la configuración guiada.
+- **Mac (Apple Silicon, M1 o posterior):** abre `ControlDeck-<versión>.dmg` y arrastra ControlDeck a Aplicaciones (o descomprime `ControlDeck-<versión>-mac.zip` y mueve ControlDeck.app a Aplicaciones). Ábrelo: se abre el panel con la configuración guiada. Mientras la versión no esté notarizada por Apple, macOS dice que no puede comprobarla: ve a Configuración del Sistema → Privacidad y seguridad y elige "Abrir de todos modos".
 - **Windows:** abre `ControlDeck-Setup-<versión>.exe`. Se instala solo, sin permisos de administrador (en `%LOCALAPPDATA%\Programs\ControlDeck`), crea "ControlDeck" en el menú Inicio, queda abriéndose al iniciar sesión y abre el panel con la configuración guiada. Se desinstala desde Configuración → Aplicaciones. Mientras el .exe no tenga firma de código, Windows muestra "Windows protegió tu PC": "Más información" → "Ejecutar de todas formas".
 
 La **configuración guiada** aparece la primera vez: nombre de la computadora, permisos (Accesibilidad en Mac), conectar la tablet con el QR y aprobar su código, y abrir al iniciar sesión. Se puede saltar y volver a ver desde el panel → "Esta computadora".

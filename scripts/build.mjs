@@ -51,7 +51,9 @@ async function buildExecutable(main, output) {
   const assets = Object.fromEntries(ALL_ASSETS.map((rel) => [rel, path.join(ROOT, rel)]));
   for (const file of Object.values(assets)) if (!fs.existsSync(file)) throw new Error(`Falta ${file}`);
   const config = path.join(WORK, 'sea-config.json');
-  fs.writeFileSync(config, JSON.stringify({ main, output, disableExperimentalSEAWarning: true, useCodeCache: false, assets }, null, 2));
+  // Rutas relativas: Node guarda el nombre de "main" dentro del ejecutable y no debe llevar
+  // la ruta de la computadora donde se armó.
+  fs.writeFileSync(config, JSON.stringify({ main: path.relative(ROOT, main), output: path.relative(ROOT, output), disableExperimentalSEAWarning: true, useCodeCache: false, assets }, null, 2));
   const base = hasSeaFuse(process.execPath) ? process.execPath : await fetchNode();
   console.log(`  base: Node ${process.version} (${base === process.execPath ? 'el instalado' : 'oficial de nodejs.org, verificado'})`);
   sh(base, ['--build-sea', config], { cwd: ROOT });
