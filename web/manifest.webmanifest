@@ -1,0 +1,11 @@
+{
+  "name": "ControlDeck",
+  "short_name": "ControlDeck",
+  "description": "Panel de botones para controlar tus computadoras",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

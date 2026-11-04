@@ -1,0 +1,44 @@
+{
+  "name": "controldeck",
+  "version": "0.8.0",
+  "description": "Panel de botones en la tablet para controlar varias computadoras Windows y macOS a la vez",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A831ARD0/controldeck.git"
+  },
+  "homepage": "https://github.com/A831ARD0/controldeck#readme",
+  "bugs": {
+    "url": "https://github.com/A831ARD0/controldeck/issues"
+  },
+  "funding": [
+    "https://github.com/sponsors/A831ARD0",
+    "https://ko-fi.com/amix_a83"
+  ],
+  "bin": {
+    "controldeck": "bin/controldeck.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node bin/controldeck.js",
+    "test": "node --test \"test/*.test.js\"",
+    "audit": "npm audit --omit=dev",
+    "build": "node scripts/build.mjs",
+    "build:mac": "node scripts/build.mjs mac",
+    "build:win": "node scripts/build.mjs win",
+    "release:mac": "node scripts/release-mac.mjs",
+    "release:win": "node scripts/release-win.mjs"
+  },
+  "dependencies": {
+    "qrcode": "1.5.4",
+    "tweetnacl": "1.0.3",
+    "ws": "8.22.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

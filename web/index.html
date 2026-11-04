@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#f3efe8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111113" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="ControlDeck">
+  <title>ControlDeck</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icon.svg">
+  <link rel="stylesheet" href="/app.css">
+  <script src="/vendor/nacl.js"></script>
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></div><span>ControlDeck</span></div>
+    <div id="dock" class="dock" aria-label="Computadoras" aria-live="polite"></div>
+    <div class="tools">
+      <button id="notif-btn" class="tool bell" aria-label="Notificaciones" hidden></button>
+      <button id="voice-btn" class="tool" aria-label="Decir un comando" hidden></button>
+      <button id="edit-toggle" class="tool" aria-pressed="false" aria-label="Editar botones"></button>
+      <button id="settings-btn" class="tool" aria-label="Ajustes"></button>
+    </div>
+  </header>
+  <div id="offline" class="offline" role="status"></div>
+  <div class="edit-banner" role="status">
+    <span><b>Modo edición.</b> Toca una tecla para cambiarla o arrástrala para moverla. Para pasarla a otra página, suéltala sobre el nombre de esa página abajo. Los nombres de abajo también se arrastran para ordenarlos.</span>
+    <span class="spacer"></span>
+    <button id="edit-done">Listo</button>
+  </div>
+  <div id="stage" class="stage">
+    <main id="grid" class="grid" aria-label="Botones"></main>
+  </div>
+  <nav id="pagebar" class="pagebar" aria-label="Páginas"></nav>
+  <div id="toasts" class="toasts" aria-live="assertive"></div>
+  <div id="modal-root"></div>
+</body>
+</html>
