@@ -1,5 +1,19 @@
 # ControlDeck
 
+<p align="center">
+  <a href="https://github.com/A831ARD0/controldeck/releases/latest/download/ControlDeck-Windows.exe"><img alt="Descargar para Windows" src="https://img.shields.io/badge/Descargar-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white"></a>
+  <a href="https://github.com/A831ARD0/controldeck/releases/latest/download/ControlDeck-Mac.zip"><img alt="Descargar para Mac" src="https://img.shields.io/badge/Descargar-Mac-000000?style=for-the-badge&logo=apple&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <a href="https://ko-fi.com/amix_a83"><img alt="Invítame un café en Ko-fi" src="https://img.shields.io/badge/Inv%C3%ADtame%20un%20caf%C3%A9-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white"></a>
+  <a href="https://github.com/sponsors/A831ARD0"><img alt="Apoya en GitHub Sponsors" src="https://img.shields.io/badge/Apoyar-GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white"></a>
+</p>
+
+<p align="center">
+  Windows 10/11 · Mac con Apple Silicon (M1 o posterior) · <a href="https://github.com/A831ARD0/controldeck/releases/latest">Todas las descargas</a> · <a href="GUIA.md">Guía rápida</a>
+</p>
+
 Convierte una tablet o un celular en un panel de botones que controla **varias computadoras Windows y macOS a la vez**. Un mismo botón funciona en las dos: `mod+c` se convierte en `Ctrl+C` en Windows y en `Cmd+C` en Mac.
 
 Es **software libre** (licencia [MIT](LICENSE)): úsalo, cópialo, modifícalo y compártelo sin restricciones. Para empezar en 5 minutos, sigue la [guía rápida](GUIA.md).
@@ -24,8 +38,8 @@ Es **software libre** (licencia [MIT](LICENSE)): úsalo, cópialo, modifícalo y
 
 ## Instalar (para quien lo usa)
 
-- **Mac (Apple Silicon, M1 o posterior):** abre `ControlDeck-<versión>.dmg` y arrastra ControlDeck a Aplicaciones (o descomprime `ControlDeck-<versión>-mac.zip` y mueve ControlDeck.app a Aplicaciones). Ábrelo: se abre el panel con la configuración guiada. Mientras la versión no esté notarizada por Apple, macOS dice que no puede comprobarla: ve a Configuración del Sistema → Privacidad y seguridad y elige "Abrir de todos modos".
-- **Windows:** abre `ControlDeck-Setup-<versión>.exe`. Se instala solo, sin permisos de administrador (en `%LOCALAPPDATA%\Programs\ControlDeck`), crea "ControlDeck" en el menú Inicio, queda abriéndose al iniciar sesión y abre el panel con la configuración guiada. Se desinstala desde Configuración → Aplicaciones. Mientras el .exe no tenga firma de código, Windows muestra "Windows protegió tu PC": "Más información" → "Ejecutar de todas formas".
+- **Mac (Apple Silicon, M1 o posterior):** abre `ControlDeck-<versión>.dmg` y arrastra ControlDeck a Aplicaciones (o descomprime `ControlDeck-Mac.zip` y mueve ControlDeck.app a Aplicaciones). Ábrelo: se abre el panel con la configuración guiada. Mientras la versión no esté notarizada por Apple, macOS dice que no puede comprobarla: ve a Configuración del Sistema → Privacidad y seguridad y elige "Abrir de todos modos".
+- **Windows:** abre `ControlDeck-Windows.exe`. Se instala solo, sin permisos de administrador (en `%LOCALAPPDATA%\Programs\ControlDeck`), crea "ControlDeck" en el menú Inicio, queda abriéndose al iniciar sesión y abre el panel con la configuración guiada. Se desinstala desde Configuración → Aplicaciones. Mientras el .exe no tenga firma de código, Windows muestra "Windows protegió tu PC": "Más información" → "Ejecutar de todas formas".
 
 La **configuración guiada** aparece la primera vez: nombre de la computadora, permisos (Accesibilidad en Mac), conectar la tablet con el QR y aprobar su código, y abrir al iniciar sesión. Se puede saltar y volver a ver desde el panel → "Esta computadora".
 
@@ -278,7 +292,9 @@ ControlDeck es libre y gratis. Si te sirve y quieres invitar un café:
 | 🫖 | Una cafetera | 25 USD |
 | 📅 | Un año de café | 100 USD |
 
-Se puede apoyar por **GitHub Sponsors** (botón "Sponsor" del repositorio) o **Ko-fi**. Los enlaces se configuran en [`shared/project.js`](shared/project.js) y [`.github/FUNDING.yml`](.github/FUNDING.yml); el panel y la tablet muestran "Apoya ControlDeck" solo cuando hay alguno.
+Apóyalo en **[Ko-fi](https://ko-fi.com/amix_a83)** (tarjeta o PayPal, sin crear cuenta) o en **[GitHub Sponsors](https://github.com/sponsors/A831ARD0)** (pago único o mensual). También desde el botón "Sponsor" de este repositorio, el panel de la computadora y los ajustes de la tablet.
+
+Si publicas tu propia copia, cambia los enlaces en [`shared/project.js`](shared/project.js) y [`.github/FUNDING.yml`](.github/FUNDING.yml).
 
 ## Licencia
 

@@ -4,8 +4,10 @@ Convierte tu tablet (iPad, Android o cualquier navegador moderno) en un panel de
 
 ## 1. Instala ControlDeck en la computadora
 
-- **Mac (Apple Silicon, M1 o posterior):** abre `ControlDeck-<versión>.dmg` (o descomprime `ControlDeck-<versión>-mac.zip`), pon **ControlDeck** en **Aplicaciones** y ábrelo. No aparece en el Dock: se abre su panel en el navegador. Si macOS dice que no puede comprobar la app, ve a **Configuración del Sistema → Privacidad y seguridad** y elige **Abrir de todos modos**.
-- **Windows:** abre `ControlDeck-Setup-<versión>.exe`. Se instala solo y abre su panel en el navegador. Si Windows muestra "Windows protegió tu PC", elige **Más información → Ejecutar de todas formas**.
+Descárgalo de la [página de descargas](https://github.com/A831ARD0/controldeck/releases/latest): [Windows](https://github.com/A831ARD0/controldeck/releases/latest/download/ControlDeck-Windows.exe) o [Mac](https://github.com/A831ARD0/controldeck/releases/latest/download/ControlDeck-Mac.zip).
+
+- **Mac (Apple Silicon, M1 o posterior):** abre `ControlDeck-<versión>.dmg` (o descomprime `ControlDeck-Mac.zip`), pon **ControlDeck** en **Aplicaciones** y ábrelo. No aparece en el Dock: se abre su panel en el navegador. Si macOS dice que no puede comprobar la app, ve a **Configuración del Sistema → Privacidad y seguridad** y elige **Abrir de todos modos**.
+- **Windows:** abre `ControlDeck-Windows.exe`. Se instala solo y abre su panel en el navegador. Si Windows muestra "Windows protegió tu PC", elige **Más información → Ejecutar de todas formas**.
 
 Si la computadora pregunta si ControlDeck puede **recibir conexiones entrantes**, permítelo en redes privadas (la de tu casa u oficina).
 
